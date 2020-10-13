@@ -17,7 +17,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
     caffeinebeverage.cpp \
-    coffee.cpp
+    coffee.cpp \
+    tea.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -26,4 +27,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     caffeinebeverage.h \
-    coffee.h
+    coffee.h \
+    tea.h

@@ -3,7 +3,7 @@
 
 #include "caffeinebeverage.h"
 
-class Coffee :: public CaffeineBeverage
+class Coffee : public CaffeineBeverage
 {
 public:
     Coffee();
