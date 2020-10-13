@@ -5,21 +5,14 @@ Coffee::Coffee()
 
 }
 
-void Coffee:: prepareRecipe(){
 
-    boilWater();
-    brewCoffeeGrinds();
-    pourInCup();
-    addShugarAndMilk();
-
-}
-void Coffee:: brewCoffeeGrinds(){
+void Coffee:: brew(){
 
     cout << "Dripping Coffee through filter" << endl;
 
 
 }
-void Coffee:: addShugarAndMilk(){
+void Coffee:: addCondiments(){
 
     cout << "Adding shugar and milk" << endl;
 }
