@@ -5,19 +5,13 @@ Tea::Tea()
 
 }
 
-void Tea::prepareRecipe(){
 
-    boilWater();
-    steepTeaBag();
-    pourInCup();
-    addLemon();
-}
-void Tea::steepTeaBag(){
+void Tea::brew(){
 
     cout << "Stepping the Tea" << endl;
 
 }
-void Tea::addLemon(){
+void Tea::addCondiments(){
 
     cout << "Adding Lemon" << endl;
 

@@ -9,8 +9,8 @@ class CaffeineBeverage
 public:
     CaffeineBeverage();
     void prepareRecipe();
-    virtual void boilWater() = 0;
-    void brew();
+    void boilWater();
+    virtual void brew() = 0;
     void pourInCup();
     virtual void addCondiments() = 0;
 };
