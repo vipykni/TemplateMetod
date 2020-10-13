@@ -13,6 +13,7 @@ public:
     virtual void brew() = 0;
     void pourInCup();
     virtual void addCondiments() = 0;
+    bool customerWantsCondiments();
 };
 
 #endif // CAFFEINEBEVERAGE_H

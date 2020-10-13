@@ -9,7 +9,10 @@ void CaffeineBeverage::prepareRecipe(){
     boilWater();
     brew();
     pourInCup();
-    addCondiments();
+    if (customerWantsCondiments()){
+        addCondiments();
+
+    }
 
 }
 
@@ -22,3 +25,9 @@ void CaffeineBeverage::pourInCup(){
     cout << "Pouring into cup" << endl;
 
 }
+
+bool  CaffeineBeverage::customerWantsCondiments(){
+
+    return true;
+}
+
