@@ -7,8 +7,6 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    //Coffee *coffee = new Coffee();
-    //coffee->prepareRecipe();
 
     cout << endl << "Tea:" << endl;
     Tea *tea = new Tea();
